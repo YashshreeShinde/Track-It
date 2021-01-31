@@ -1,0 +1,31 @@
+import React, { Component } from 'react';
+import Navbar from './components/Navbar'
+import {BrowserRouter,Route,Switch} from 'react-router-dom'
+import Home from './components/Home'
+import WildFire from './Wildfire'
+import Weather from './Weather'
+
+
+
+class App extends Component{
+  render(){
+    return(
+      <BrowserRouter>
+      <div className="App">
+      <Navbar/>
+      <Switch>
+      <Route exact path='/' component={Home}/>
+      <Route path='/wildfire' component={WildFire}/>
+      <Route path='/weather' component={Weather}/>
+      {/* <Route path="/:post_id" component={Posts}/> */}
+      </Switch>
+       
+      </div>
+      </BrowserRouter>
+    )
+  }
+}
+
+
+
+export default App;
