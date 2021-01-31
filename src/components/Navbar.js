@@ -11,9 +11,9 @@ const Navbar=(props)=>{
             <div className="container">
                 {/* <a className="brand-logo">Track IT</a> */}
                 <ul className="right">
-                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/">Weather</NavLink></li>
                     <li><NavLink to="/wildfire">Wildfire Tracker</NavLink></li>
-                    <li><NavLink to="/weather">Weather</NavLink></li>
+                   
                 </ul>
 
             </div>

@@ -8,6 +8,7 @@
 
 body {
     overflow: visible;
+    background-color: gainsboro;
 }
 
 .container {
@@ -57,7 +58,7 @@ body {
 }
 
 .region {
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .regioninput {
@@ -73,4 +74,5 @@ body {
     font-weight: 600;
     font-size: 1rem;
     padding-left: 0;
+    color: gray;
 }

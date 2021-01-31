@@ -14,10 +14,10 @@ class App extends Component{
       <div className="App">
       <Navbar/>
       <Switch>
-      <Route exact path='/' component={Home}/>
+      <Route exact path='/' component={Weather}/>
       <Route path='/wildfire' component={WildFire}/>
-      <Route path='/weather' component={Weather}/>
-      {/* <Route path="/:post_id" component={Posts}/> */}
+     
+     
       </Switch>
        
       </div>
